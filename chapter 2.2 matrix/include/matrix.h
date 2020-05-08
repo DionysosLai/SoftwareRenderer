@@ -27,7 +27,9 @@ public:
 	Matrix inverse();
 	
 
-
+	// debug
+	void print();
+	void testMatrix();
 
 private:
 	std::array<float, 16> mMatrix{};
