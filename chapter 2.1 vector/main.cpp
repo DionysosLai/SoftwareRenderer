@@ -4,8 +4,8 @@
 #include "include/vector.h"
 
 int main() {
-	// »ù´¡ÄÚÈİ²âÊÔ
-	printf("»ù´¡ÄÚÈİ²âÊÔ\n");
+	// base property test
+	printf("base property test\n");
 	Vector3f vec3f(1, 2, 3);
 	vec3f += 3;
 	vec3f *= 2;
@@ -14,14 +14,14 @@ int main() {
 	vec3f.print();
 	nvec3f.print();
 
-	// µã³Ë²âÊÔ
-	printf("µã³Ë²âÊÔ\n");
+	// dot test
+	printf("dot test\n");
 	Vector3f vec3f1(1, 2, 3);
 	Vector3f vec3f2(3, 4, 5);
 	printf("%f\n", vec3f1.dotProduct(vec3f2));
 
-	// ²æ³Ë²âÊÔ
-	printf("²æ³Ë²âÊÔ\n");
+	// cross test
+	printf("cross test\n");
 	(vec3f1.crossProduct(vec3f2)).print();
 
 	
