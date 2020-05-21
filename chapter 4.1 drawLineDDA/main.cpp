@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 	while (true)
 	{
 		Vector3f v1(0, 0, 0), v2(dp->SCREEN_WIDTH - dap, dp->SCREEN_HEIGHT, 0);
-		rasterizer->drawLineDDA(v1, v2, 100, pixels);
+		rasterizer->drawLineDDA1(v1, v2, 100, pixels);
 		dp->swapBuffers(pixels);
 		
 		SDL_Delay(1000);

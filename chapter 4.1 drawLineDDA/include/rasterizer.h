@@ -17,7 +17,8 @@ public:
 
 	// 基础直线绘制算法，采用DDA算法
 	void drawLineDDA(Vector3f &vertex1, Vector3f &vertex2, const Uint32 &color, Buffer< Uint32> *pixelBuffer);
-
+	// DDA算法优化
+	void drawLineDDA1(Vector3f &vertex1, Vector3f &vertex2, const Uint32 &color, Buffer< Uint32> *pixelBuffer);
 private:
 
 };
